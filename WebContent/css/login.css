@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+/* CSS Document */
+* {
+	background-color: beige;
+	font-size: large;
+	background: url(img/100.jpg) repeat fixed center;
+}
+
+.title p {
+	position: relative;
+	font: "arial black";
+	font-size: 30px;
+	top: 150px;
+	text-align: center;
+	color: #6f708f;
+}
+
+.login_content{
+	width: 400px;
+	background: #fff;
+	margin: 15px auto;
+	top: 180px;
+	position: relative;
+}
+
+.login_name input {
+	width: 200px;
+	padding: 0 20px;
+	height: 40px;
+	border: 1px solid #f2f2f2;
+	background: white;
+	color: #202124;
+	font-size: 14px;
+	line-height: 40px;
+	border-radius: 25px;
+	opacity: 0.7;
+	margin: 5px;
+}
+
+.login_password input{
+	width: 200px;
+	padding: 0 20px;
+	height: 40px;
+	border: 1px solid #ffffff;
+	background: white;
+	color: #202124;
+	font-size: 14px;
+	line-height: 40px;
+	border-radius: 25px;
+	opacity: 0.7;
+	margin: 5px;
+}
+
+.login_content label {
+	color: #333333;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 32px;
+	padding: 0 0 0 5px;
+	text-align: center;
+	width: 100px;
+}
+
+.registButton span {
+	position: relative;
+	left: 30px;
+}
+
+.login_content .login_sButton input {
+	float: left;
+	margin: 15px;
+	position: absolute;
+	left: 100px;
+	color: #6f708f;
+}
+
+.login_content .login_rButton input {
+	float: left;
+	margin: 15px;
+	position: absolute;
+	left: 250px;
+	color: #6f708f;
+}

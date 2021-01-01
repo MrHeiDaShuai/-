@@ -1,0 +1,108 @@
+@charset "UTF-8";
+*{
+	background-color: white;
+	font-size: large;
+	text-decoration: none;
+}
+.admin_history_frame{
+	position: relative;
+}
+.top{
+	height: 50px;
+	position: relative;
+	background-color: #202124;
+	line-height: 50px;
+}
+.top a{
+	position: relative;
+	left: 200px;
+	background-color: #202124;
+	color: #9D9D9D;
+	font-weight: 800;
+	font-family: "arial black";
+}
+
+.top button{
+	border: 1px solid;
+	position: relative;
+	left: 1100px;
+	background-color: #202124;
+	color: #6F708F;
+}
+.container{
+	top: 50px;
+	display: inline-block;
+	position: relative;
+}
+.content{
+	width: 200px;
+	position: relative;
+	float: left;
+	left: 150px;
+	border: 1px solid #dddddd;
+	border-radius: 8px;
+	font-weight: 10;
+}
+.content li{
+	list-style: none;
+	margin: 10px;
+}
+.row{
+	width: 1000px;
+	float: left;
+	position: relative;
+	border: 2px solid #dddddd;
+	left: 200px;
+	border-radius: 5px;
+}
+.title{
+	line-height: 50px;
+	height: 50px;
+	background-color: #efefef;
+	position: relative;
+}
+.row_select{
+	text-align: center;
+	height: 100px;
+	line-height: 100px;
+	position: relative;
+}
+.select_name{
+	margin: 20px;
+	position: relative;
+	font-weight: 800;
+}
+.row_select input{
+	height: 30px;
+	width: 400px;
+	margin: 20px;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+}
+.row_select button{
+	background-color: #2a6395;
+	color: #ffffff;
+	border-radius: 5px;
+}
+.addBtn{
+	position: relative;
+	left: 50px;
+}
+.admin_history_table{
+	width: 1000px;
+	position: relative;
+	top: 10px;
+	left:402px;
+	border: 2px solid #dddddd;
+	border-radius: 5px
+}
+.admin_history_table th{
+	text-align: left;
+	border: 1px solid #dddddd;
+}
+.admin_history_table  td{
+	font-weight: 400;
+	height:35px;
+	font-size:15px;
+	border: 1px solid #dddddd;
+}

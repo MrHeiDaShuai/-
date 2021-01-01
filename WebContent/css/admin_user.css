@@ -1,0 +1,283 @@
+@charset "UTF-8";
+*{
+	background-color: white;
+	font-size: large;
+	text-decoration: none;
+}
+.admin_user_frame{
+	position: relative;
+}
+.top{
+	height: 50px;
+	position: relative;
+	background-color: #202124;
+	line-height: 50px;
+}
+.top a{
+	position: relative;
+	left: 200px;
+	background-color: #202124;
+	color: #9D9D9D;
+	font-weight: 800;
+	font-family: "arial black";
+}
+
+.top button{
+	border: 1px solid;
+	position: relative;
+	left: 1100px;
+	background-color: #202124;
+	color: #6F708F;
+}
+.container{
+	top: 50px;
+	display: inline-block;
+	position: relative;
+}
+.content{
+	width: 200px;
+	position: relative;
+	float: left;
+	left: 150px;
+	border: 1px solid #dddddd;
+	border-radius: 8px;
+	font-weight: 10;
+}
+.content li{
+	list-style: none;
+	margin: 10px;
+}
+.row{
+	width: 1000px;
+	float: left;
+	position: relative;
+	border: 2px solid #dddddd;
+	left: 200px;
+	border-radius: 5px;
+}
+.title{
+	line-height: 50px;
+	height: 50px;
+	background-color: #efefef;
+	position: relative;
+}
+.row_add{
+	height: 100px;
+	line-height: 100px;
+	position: relative;
+}
+.row_add button{
+	position: relative;
+	left: 20px;
+	background-color: #2a6395;
+	color: #ffffff;
+	border-radius: 5px;
+}
+.addBtn{
+	position: relative;
+	left: 50px;
+}
+.admin_user_table{
+	width: 1000px;
+	position: relative;
+	top: 10px;
+	left:402px;
+	border: 2px solid #dddddd;
+	border-radius: 5px
+}
+.admin_user_table th{
+	text-align: left;
+	border: 1px solid #dddddd;
+}
+.admin_user_table  td{
+	font-weight: 400;
+	height: 35px;
+	font-size: 15px;
+	border: 1px solid #dddddd;
+}
+
+.admin_user_table  td>button {
+	background-color: #F0AD4E;
+	color: #fff8ef;
+	font-size: 12px;
+	width: 40px;
+	border: 2px solid #dddddd;
+	border-radius: 5px
+}
+
+.admin_user_table .deleteBtn {
+	background-color: #D9534F;
+}
+
+/*弹窗CSS格式 */
+.mask {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.4);
+	z-index: 100;
+	display: none;
+}
+
+.addModal {
+	position: absolute;
+	width:600px;
+	height:350px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	background: #fff;
+	box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.2);
+	z-index: 120;
+	left:800px;
+	display: none;
+}
+
+.addModal .modal-header {
+	height: 50px;
+	border-bottom: 1px solid #f5f5f5;
+	padding: 0 15px;
+	line-height:50px;
+}
+
+.addModal .modal-header p {
+	line-height: 50px;
+	display: inline-block;
+}
+
+.addModal .modal-header .title {
+	font-size: 18px;
+	line-height:30px;
+	color: #333;
+}
+
+.addModal .modal-header .close {
+	float: right;
+	font-size: 26px;
+	margin-top: -0.1px;
+	color: #9C9FA4;
+	cursor: default;
+}
+
+.addModal .modal-content {
+	min-height: 100px;
+	text-align: center;
+	position:relative;
+}
+
+.addModal .modal-content input {
+	position :relative;
+	float:left;
+	left:100px;
+	width: 400px;
+}
+
+.addModal .modal-content select>option {
+	text-align: center;
+}
+
+.addModal .modal-footer .btn {
+	padding: 0 20px;
+	height: 36px;
+	line-height: 36px;
+	color: white;
+	background: #409EFF;
+	border: none;
+	position:relative;
+}
+
+.addModal .modal-footer {
+	border-top: 1px solid #f5f5f5;
+	padding: 15px;
+	text-align: right;
+	float:left;
+	position:relative;
+	top:30px;
+}
+
+.container::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*修改读者信息CSS样式*/
+.changeModal {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 600px;
+	height: 350px;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	background: #fff;
+	box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.2);
+	z-index: 120;
+	left: 800px;
+	display: none;
+}
+
+.changeModal .modal-header {
+	height: 50px;
+	border-bottom: 1px solid #f5f5f5;
+	padding: 0 15px;
+	line-height: 50px;
+}
+
+.changeModal .modal-header p {
+	line-height: 50px;
+	display: inline-block;
+}
+
+.changeModal .modal-header .title {
+	font-size: 18px;
+	line-height: 30px;
+	color: #333;
+}
+
+.changeModal .modal-header .close2 {
+	float: right;
+	font-size: 26px;
+	margin-top: -0.1px;
+	color: #9C9FA4;
+	cursor: default;
+}
+
+.changeModal .modal-content {
+	min-height: 100px;
+	text-align: center;
+	position: relative;
+	line-height: 100px;
+}
+
+.changeModal .modal-content input {
+	position: relative;
+    float: left;
+    left: 100px;
+    width: 400px;
+}
+
+.changeModal .modal-content select>option {
+	text-align: center;
+}
+
+.changeModal .modal-footer .btn {
+	padding: 0 20px;
+	height: 36px;
+	line-height: 36px;
+	color: white;
+	background: #409EFF;
+	border: none;
+}
+
+.changeModal .modal-footer {
+    padding: 15px;
+    text-align: right;
+    float: left;
+    position: relative;
+    top: 30px;
+}
